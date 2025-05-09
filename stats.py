@@ -2,7 +2,7 @@ def number_of_words(text):
     words = []
     words = text.split()
     num_words = len(words)
-    return print(f"{num_words} words found in the document")
+    return num_words
 
 def symbol_breakdown(text):
     symbols = {}
